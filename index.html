@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/705438527d.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+  <script defer src="js/courses.js"></script>
+  <script type="module" src = 'js/new.js' ></script>
+  <title>MITT Online Learning Centre</title>
+</head>
+<body>
+  <nav>
+    <div id="cart">
+      <div class="popover">
+        <i class="fas fa-shopping-cart"></i>Cart
+      </div>
+      <div class="cart-inner hide">
+        <div id="items-in-cart">
+          You have 0 items in your cart.
+        </div>
+        <ul> 
+        </ul>
+        <div class="subtotal">
+          <span>Subtotal:</span>
+          <span id="subtotal-amount">$0</span>
+        </div>
+        <div class="total">
+          <span>Total:</span>
+          <span id="total-amount">$0</span>
+        </div>
+      </div>      
+    </div>
+  </nav>
+  
+  <main>
+    <ul class="courses"></ul>
+  </main>
+</body>
+</html>
